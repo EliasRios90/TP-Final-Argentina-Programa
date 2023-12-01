@@ -3,9 +3,6 @@
     <persistence-unit name="org.veterinaria" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>org.entidades.Mascota</class>
-        <class>org.entidades.Cliente</class>
-        <class>org.entidades.Veterinario</class>
-        <class>org.entidades.EstadoTurno</class>
         <class>org.entidades.Prestacion</class>
         <class>org.entidades.Turno</class>
         <class>org.entidades.Perro</class>
